@@ -44,7 +44,6 @@ public class RepairSchedule {
             mechanics.add(i);
         }
 
-
         for(CarRepair repair: schedule){
             for(int i = 0; i < mechanics.size(); i ++){
                 if(mechanics.get(i) == repair.getMechanicNum()){

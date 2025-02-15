@@ -1,26 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestSpellChecker" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-13T13:50:03" hostname="codespaces-c21e3a" time="0.916">
+<testsuite name="com.example.project.TestSpellChecker" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-15T00:12:23" hostname="codespaces-c21e3a" time="0.719">
   <properties/>
-  <testcase name="testLinearSearchInList()" classname="com.example.project.TestSpellChecker" time="0.012"/>
-  <testcase name="testBinarySearchInList2()" classname="com.example.project.TestSpellChecker" time="0.005"/>
-  <testcase name="testBinarySearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.004"/>
-  <testcase name="testLinearSearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.012"/>
-  <testcase name="testBinarySearchInList()" classname="com.example.project.TestSpellChecker" time="0.004"/>
+  <testcase name="testLinearSearchInList()" classname="com.example.project.TestSpellChecker" time="0.018"/>
+  <testcase name="testBinarySearchInList2()" classname="com.example.project.TestSpellChecker" time="0.022"/>
+  <testcase name="testBinarySearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.005"/>
+  <testcase name="testLinearSearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.008"/>
+  <testcase name="testBinarySearchInList()" classname="com.example.project.TestSpellChecker" time="0.006"/>
   <system-out><![CDATA[
 dictionary.txt file imported successfully!
 -- LINEAR SEARCH: Number of words checked (loop iterations): 44357
 
 dictionary.txt file imported successfully!
--- BINARY SEARCH: Number of words checked (loops/runtime): 1
+1 - 63571
+It took: 1 checks
 
 dictionary.txt file imported successfully!
--- BINARY SEARCH: Number of words checked (loops/runtime): 17
+1 - 63571
+2 - 31785
+3 - 15892
+4 - 23838
+5 - 19865
+6 - 17878
+7 - 16885
+8 - 16388
+9 - 16636
+10 - 16512
+11 - 16450
+12 - 16419
+13 - 16434
+14 - 16442
+15 - 16446
+16 - 16448
+17 - 16447
+It took: 17 checks
 
 dictionary.txt file imported successfully!
 -- LINEAR SEARCH: Number of words checked (loop iterations): 127143
 
 dictionary.txt file imported successfully!
--- BINARY SEARCH: Number of words checked (loops/runtime): 16
+1 - 63571
+2 - 31785
+3 - 47678
+4 - 39731
+5 - 43704
+6 - 45691
+7 - 44697
+8 - 44200
+9 - 44448
+10 - 44324
+11 - 44386
+12 - 44355
+13 - 44370
+14 - 44362
+15 - 44358
+16 - 44356
+It took: 16 checks
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
